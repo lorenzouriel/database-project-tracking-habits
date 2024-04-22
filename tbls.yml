@@ -1,0 +1,9 @@
+# .tbls.yml
+
+# DSN (Database Source Name) to connect database
+dsn: # .tbls.yml
+dsn: sqlserver://lorenzo.uriel:Lukaku@2022@CYLOGUS:1433/tracking_habits
+
+# Path to generate document
+# Default is `dbdoc`
+docPath: docs/schema
