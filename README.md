@@ -4,15 +4,15 @@
 
 | Name | Columns | Comment | Type |
 | ---- | ------- | ------- | ---- |
-| [contacts](/docs/schema/contacts.md) | 6 |  | BASIC TABLE |
-| [goals](/docs/schema/goals.md) | 8 |  | BASIC TABLE |
-| [habits](/docs/schema/habits.md) | 8 |  | BASIC TABLE |
-| [time](/docs/schema/time.md) | 8 |  | BASIC TABLE |
-| [tracking](/docs/schema/tracking.md) | 4 |  | BASIC TABLE |
+| [contacts](/docs/schema/contacts.md) | 6 | Responsible for save the contacts and the users | BASIC TABLE |
+| [goals](/docs/schema/goals.md) | 8 | Responsible for save the goals related to the users | BASIC TABLE |
+| [habits](/docs/schema/habits.md) | 8 | Responsible for save the habits related to the users | BASIC TABLE |
+| [time](/docs/schema/time.md) | 8 | Time table | BASIC TABLE |
+| [tracking](/docs/schema/tracking.md) | 4 | Responsible for save tracking the habits daily | BASIC TABLE |
 
 ## Relations
 
-![er](/docs/schema/schema.svg)
+![er](/docs/database/models/logical_model.png)
 
 ---
 
